@@ -2,6 +2,10 @@
 
 > Detect if an ad blocker extension is active and ask the user to disable it in a nice modal popup
 
+
+[ ![](demo.gif) ](demo.gif)
+
+
 # Features
 
 - No dependency
