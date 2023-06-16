@@ -21,7 +21,7 @@ function AdBlockRemover(config) {
 
     var _config = {
         title:		'We see you’re using an ad blocker',
-        text:			'Meetmein.live relies on advertising to bring cutting edge 3D meeting experience. <br />To continue using this app, please add Meetmein.live to the safe sites in your ad blocker.',
+        text:			'This website relies on advertising to bring cutting edge 3D meeting experience. <br />To continue using this app, please add this website to the safe sites in your ad blocker or disable your ad blocker.',
         modal_class: '',
         overlay_class: '',
         button_class : '',
