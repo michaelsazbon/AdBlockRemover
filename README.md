@@ -42,10 +42,10 @@ Add the below code in the HTML page before the \</body\> tag.
 
 ```javascript
 // The title of the modal window
-title:'We see you’re using an ad blocker'
+title: 'We see you’re using an ad blocker'
 
 // The text of the modal window
-text:'This website relies on advertising to bring cutting edge 3D meeting experience. <br />To continue using this app, please add this website to the safe sites in your ad blocker or disable your ad blocker.'
+text: 'This website relies on advertising to bring you rich content. <br />To continue using this website, please add it to the safe sites in your ad blocker or disable your ad blocker'
 
 // The css class of the modal window
 modal_class: ''
