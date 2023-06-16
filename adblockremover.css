@@ -1,0 +1,42 @@
+
+.ad-block-remover-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+  }
+  
+  .ad-block-remover-modal {
+    font-family: sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+  }
+  
+  .ad-block-remover-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ad-block-remover-buttons button {
+    background-color: #764abc;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+
+  .ad-block-remover-buttons button:hover {
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
+  }

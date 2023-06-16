@@ -1,2 +1,62 @@
 # AdBlockRemover
-Detect and ask the user to disable Ad block
+
+> Detect if an ad blocker extension is active and ask the user to disable it in a nice modal popup
+
+# Features
+
+- No dependency
+- Tested on AdBlock and AdBlockPlus
+
+# Usage
+
+Add the below code in the HTML page inside the \<head\>\</head\> tag. 
+
+```html
+    <script src="adblockremover.js"></script>
+    <link href="adblockremover.css" rel="stylesheet">
+```
+
+
+Add the below code in the HTML page before the \</body\> tag. 
+
+```javascript
+<script>
+
+    AdBlockRemover({
+        button_text: "I'm OK the ad-block is disabled !",
+        // other options if needed
+    })
+
+</script>
+```
+
+# Default options
+
+```javascript
+// The title of the modal window
+title:'We see you’re using an ad blocker'
+
+// The text of the modal window
+text:'This website relies on advertising to bring cutting edge 3D meeting experience. <br />To continue using this app, please add this website to the safe sites in your ad blocker or disable your ad blocker.'
+
+// The css class of the modal window
+modal_class: ''
+
+// The css class of the overlay
+overlay_class: ''
+
+// The css class of the button
+button_class : ''
+
+// The text of the button
+button_text: 'I disabled my ad blocker'
+
+//The time in ms between each check if an ad blocker is enabled
+loop_check_time: 5000,
+
+//The max number of checks
+loop_max_check: 10,
+
+//The Time in ms before the first check
+wait_to_check_time: 3000
+```
