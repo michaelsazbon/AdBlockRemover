@@ -31,7 +31,7 @@ Add the below code in the HTML page before the \</body\> tag.
 <script>
 
     AdBlockRemover({
-        button_text: "I'm OK the ad blocker is disabled !",
+        button_text: "I'm OK the ad blocker is disabled !"
         // other options if needed
     })
 
