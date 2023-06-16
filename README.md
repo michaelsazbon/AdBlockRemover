@@ -7,15 +7,23 @@
 - No dependency
 - Tested on AdBlock and AdBlockPlus
 
-# Usage
+# Installation
 
 Add the below code in the HTML page inside the \<head\>\</head\> tag. 
 
 ```html
-    <script src="adblockremover.js"></script>
-    <link href="adblockremover.css" rel="stylesheet">
+<script src="adblockremover.js"></script>
+<link href="adblockremover.css" rel="stylesheet">
 ```
 
+## CDN 
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/michaelsazbon/AdBlockRemover@main/adblockremover.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/michaelsazbon/AdBlockRemover@main/adblockremover.css" rel="stylesheet">
+```
+
+# Usage
 
 Add the below code in the HTML page before the \</body\> tag. 
 
